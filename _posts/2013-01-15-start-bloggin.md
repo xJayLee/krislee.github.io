@@ -1,12 +1,12 @@
 ---
 layout: blog
-title: Hello Blog
+title: Hello Blog, My New Life! Keep going!
 category: blog
 tags: [blog]  
 summery: Start bloging, start a new life
 image: 
 ---
-![img](./images/blog/blogging-again.png)
+![img](/images/blog/blogging-again.png)
 
 This is a template with masonry to get the theme
 
