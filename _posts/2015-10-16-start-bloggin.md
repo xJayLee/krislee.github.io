@@ -4,7 +4,7 @@ title: Hello Blog, My New Life! Keep going!
 category: blog
 tags: [blog]  
 summery: Start bloging, start a new life
-image: 
+image: /images/blog/blogging-again.png
 ---
 ![img](/images/blog/blogging-again.png)
 
