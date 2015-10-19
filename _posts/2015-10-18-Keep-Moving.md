@@ -1,16 +1,12 @@
 ---
 layout: blog
-title: Hello Blog, My New Life! Keep going!
+title: Keep Moving!
 category: blog
 tags: [blog]  
-summery: Start bloging, start a new life
+summery: Carry On!
 image: /images/blog/blogging-again.png
 ---
 ![img](/images/blog/blogging-again.png)
 
-This is a template with masonry to get the theme
-
-```
-git clone https://github.com/pasindud/jekyll-masonry-theme
-```
-
+Carry On!
+Keep Moving!
