@@ -3,10 +3,11 @@ layout: blog
 title: Keep Moving!
 category: blog
 tags: [blog]  
-summery: Carry On!
-image: /images/blog/blogging-again.png
+summery: 很多时候人与人之间的差别在于做一件事的坚持程度。所以，人生有些阶段虽然很痛苦，我们还是要咬紧牙，一步一步、踏踏实实地走下去，直到成功！
+image: /images/blog/keep_moving.jpeg
 ---
 ![img](/images/blog/blogging-again.png)
 
-Carry On!
-Keep Moving!
+    回想这么多年的经历，有时候觉得当初如果自己坚持在安全界混的话，现在的我会是什么样。如果，当初的选择是另一条路的话，人生又会是怎样。
+    时光毕竟不能倒流，所以，既然选择了就要走下去，现在的结果也不错。游戏行业还有很多的机会，图学习学好了，以后的路也会更宽。特效、动漫和游戏都有相通的地方，只不过特效的重点在于效果，而游戏的重点在于用户交互体验。
+    所以，调整好自己的心态，未来的路还要继续下去。
