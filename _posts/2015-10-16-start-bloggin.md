@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Hello Blog, My New Life! Keep going!
+title: Hello Blog, My New Life!
 category: blog
 tags: [blog]  
 summery: Start bloging, start a new life
