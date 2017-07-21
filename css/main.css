@@ -43,7 +43,7 @@ pre code {
 }
 
 a {
-/*	
+/*
 	color: rgba(80, 160, 228);
 	font-size: 100%;*/
 	color: #00A550;
@@ -129,7 +129,7 @@ h1 {
 }
 
 #posts ul {
-	list-style:none; 
+	list-style:none;
 	margin: auto;
 	padding: 0px;
 }
@@ -174,7 +174,6 @@ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
 	font-size: 13px;
 
 	padding: 20px 30px;
-	background: url('http://wpexplorer-demos.com/fabulous/wp-content/themes/wpex-fabulous/images/entry-meta-shadow.png') no-repeat scroll center top #FBFBFB;
 	border-radius: 0px 0px 3px 3px;
 }
 
@@ -220,7 +219,7 @@ margin: 20px 5px 0px 0px;
 width: 75%;
 float: left;
 padding-left: 3%;
- border-left: 1px dashed #ddd; 
+ border-left: 1px dashed #ddd;
 font-size: 1.15em;
 overflow: hidden;
 /*background: none repeat scroll 0% 0% #FFF;
@@ -275,7 +274,7 @@ blockquote{
 }
 
 /* Tables - Landscape */
-@media 
+@media
 only screen and (max-device-width:1024px),
 only screen and (max-width: 1024px) {
 
@@ -286,7 +285,7 @@ only screen and (max-width: 1024px) {
 }
 
 /* Tables - Verticle */
-@media 
+@media
 only screen and (max-device-width:768px),
 only screen and (max-width: 768px) {
 
@@ -296,7 +295,7 @@ only screen and (max-width: 768px) {
 }
 
 /* Smart Phone */
-@media 
+@media
 only screen and (max-device-width:600px),
 only screen and (max-width: 600px) {
 
