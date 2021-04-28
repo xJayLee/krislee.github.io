@@ -1,0 +1,233 @@
+---
+layout: patterns
+title: NPR Render Pipeline
+category: patterns
+tags: [patterns]  
+summery: Unity卡通渲染总结 NPR Toon Shading 关键词: 卡通渲染 非真实感渲染 风格化渲染
+keywords: NPR, Non-Photorealistic Rendering, Toon Rendering/Shading, Stylized Rendering
+image: /images/blog/game-programming-patterns.jpg
+---
+简单总结了下Unity卡通渲染相关的学习资料，包括项目、视频教程和技术文章。
+
+一、卡通渲染参考资料 URP
+二、卡通渲染参考资料 BRP
+三、相关技术文章
+四、参考游戏
+一、卡通渲染参考资料 URP
+用Unity制作一个卡通Shader（Shader Graph教程）
+
+Making a Toon Shader with Unity! (Shader Graph tutorial)
+
+https://www.youtube.com/watch?v=_jTXd3x6gOY
+
+Check out MinionsArt here: https://ole.unity.com/MinionsArt
+
+Download the project: https://ole.unity.com/ToonShadingProject
+
+使用Shader Graph实现的卡通渲染，用到了自定义节点。
+
+漫反射加高光，支持多个光源交互，没有外描边。
+
+
+
+《塞尔达传说：旷野之息》风格的Shader
+
+使用Shader Graph实现《塞尔达传说：旷野之息》风格的着色器
+
+https://zhuanlan.zhihu.com/p/102861590
+
+Recreating a Zelda-inspired toon shading in Shader Graph
+
+https://connect.unity.com/p/zelda-inspired-toon-shading-in-shadergraph
+
+完整项目链接 Breath of the Wild - Toon shader
+
+https://github.com/ciro-unity/BotW-ToonShader/tree/master
+
+
+塞尔达风格的Unity酱
+
+
+Colin的卡通Shader示例（URP）
+
+Unity URP Simplified Toon Lit Shader Example (for you to learn writing custom lit shader in URP)
+https://github.com/ColinLeung-NiloCat/UnityURPToonLitShaderExample
+
+图片中的是完整版效果，可惜他公开的只是一个URP卡通Shader的示例，不过可以作为框架用于URP Shader的学习。
+
+二、卡通渲染参考资料 BRP
+UnityChan
+Unity商店免费资源
+
+UnityChanToonShaderVer2_Project
+
+https://github.com/unity3d-jp/UnityChanToonShaderVer2_Project
+
+由Unity日本技术团队推出的日式卡通渲染shader，功能非常全面且强大，一号影、二号影、高光、天使环、高度可控的描边等等。所以通过参数调整可以满足大部分的卡通表现需求，就是需要花时间去研究如何使用。
+
+示例有赛璐璐风格Toon_DoubleShadeWithFeather，也有厚涂风格ToonColor_DoubleShadeWithFeather。
+
+性能要求较高，不过也有简化的手机版本Shader，或者自己花时间去精简功能优化，这部分也比较费时。
+
+（Shader命名有点迷）
+
+赛璐璐风格 VS 厚涂风格
+
+
+英文使用说明
+
+Unity-Chan Toon Shader 2.0 v.2.0.7 Manual
+
+https://github.com/unity3d-jp/UnityChanToonShaderVer2_Project/blob/release/legacy/2.0/Manual/UTS2_Manual_en.md
+
+中文说明总结
+
+Unity Chan研究（2）Overview
+
+https://zhuanlan.zhihu.com/p/105038692
+
+Unity Chan研究（3）思维脑图
+
+https://zhuanlan.zhihu.com/p/105047326
+
+Unity Chan研究（5）这些烂七八糟的shader都是什么啊？
+
+https://zhuanlan.zhihu.com/p/105195769
+
+
+
+AmplifyShaderEditor插件中的卡通Shader示例
+CustomLightingToon
+
+CustomOutlineToon
+
+漫反射加高光，支持多个光源交互，但是描边效果比较差。
+
+
+
+三、相关技术文章
+【《Real-Time Rendering 3rd》 提炼总结】(十) 第十一章 · 非真实感渲染(NPR)相关技术总结 260
+
+https://zhuanlan.zhihu.com/p/31194204
+
+
+
+卡通渲染及其相关技术 1394
+
+https://zhuanlan.zhihu.com/p/26409746
+
+
+
+卡通渲染技术总结 619
+
+https://zhuanlan.zhihu.com/p/86726394
+
+
+
+卡通渲染学习总结 701
+
+https://zhuanlan.zhihu.com/p/163791090
+
+
+
+非真实感渲染 842
+
+https://zhuanlan.zhihu.com/p/84075550
+
+
+
+基于PBR框架的角色风格化渲染——油画风 355
+
+https://zhuanlan.zhihu.com/p/142145970
+
+
+
+借AI梦境档案谈谈NPR渲染 228
+
+https://zhuanlan.zhihu.com/p/87619107
+
+
+
+【01】从零开始的卡通渲染-描边篇 254
+
+https://zhuanlan.zhihu.com/p/109101851
+
+【02】从零开始的卡通渲染-着色篇1 214
+
+https://zhuanlan.zhihu.com/p/110025903
+
+【03】从零开始的卡通渲染-着色篇2 72
+
+https://zhuanlan.zhihu.com/p/111633226
+
+【04】从零开始的卡通渲染-PBR篇 219
+
+https://zhuanlan.zhihu.com/p/115238808
+
+
+
+【01】开篇：重力眩晕2中的渲染效果概览
+
+https://zhuanlan.zhihu.com/p/94581861
+
+【02】卡通渲染基本光照模型的实现
+
+https://zhuanlan.zhihu.com/p/95986273
+
+【03】卡通渲染LightMap的使用
+
+https://zhuanlan.zhihu.com/p/97338996
+
+【04】卡通渲染 次表面散射效果的简易实现
+
+https://zhuanlan.zhihu.com/p/97892884
+
+
+【Unity URP】以Render Feature实现卡通渲染中的刘海投影 643
+
+https://zhuanlan.zhihu.com/p/232450616
+
+
+
+米哈游技术总监首次分享：移动端高品质卡通渲染的实现与优化方案 1504
+
+https://zhuanlan.zhihu.com/p/37001473
+
+卡通渲染手游七大罪的技术介绍,一 348
+
+https://zhuanlan.zhihu.com/p/161326626
+
+《原神》部分效果的个人理解 1264
+
+Lucifer：《原神》部分效果的个人理解
+
+原神图形技术简析及杂谈 2243
+
+2401DEM：原神图形技术简析及杂谈
+
+
+
+【翻译】西川善司「实验做出的游戏图形」「GUILTY GEAR Xrd -SIGN-」中实现的「纯卡通动画的实时3D图形」的秘密，前篇（1）
+
+【翻译】西川善司「实验做出的游戏图形」「GUILTY GEAR Xrd -SIGN-」中实现的「纯卡通动画的实时3D图形」的秘密，前篇（2）
+
+【翻译】西川善司的「实验做出的游戏图形」「GUILTY GEAR Xrd -SIGN-」中实现的「纯卡通动画的实时3D图形」的秘密，后篇
+
+
+四、参考游戏
+美式：
+
+《守望先锋》《堡垒之夜》《英雄联盟》《军团要塞》《Apex Legends》
+
+日式：
+《大神》
+《GUILTY GEAR Xrd》罪恶装备
+《重力眩晕2》
+《新樱花大战》《二之国》
+《塞尔达荒野之息》
+
+手游：
+《崩坏3》《战双帕米什》
+《火影忍者》
+《七大罪》
+
