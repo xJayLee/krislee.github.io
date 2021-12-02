@@ -12,3 +12,5 @@ aboutme: "Something about the author here"
 twitter: "Jingli"
 github: "krislee"
 linkined_url: ""
+
+theme: jekyll-theme-cayman
